@@ -1,6 +1,9 @@
 import React from "react";
 import CustomPage from "../shared/CustomPage";
 // import { BookingColumns } from "./Config";
+import { BiDotsVerticalRounded } from "react-icons/bi";
+
+import { Checkbox, Table, Tooltip, Tag, Space, Button, Input } from "antd";
 import { BookingData } from "../../fakeData/index";
 function Booking() {
   return (
