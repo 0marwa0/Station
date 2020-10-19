@@ -1,0 +1,70 @@
+* {
+  padding: 0;
+
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Px-Grotesk !important;
+}
+.ant-table-cell {
+  padding: 5px 7px !important;
+}
+.ant-table-container {
+  border: 1px solid var(--lighterGray) !important;
+  border-radius: 10px 10px 0 0 !important;
+  border-bottom: none !important;
+}
+th:first-child {
+  border-radius: 10px 0 0 0 !important;
+}
+th:last-child {
+  border-radius: 10px !important;
+}
+.ant-tag {
+  border: none !important;
+  border-radius: 6px !important;
+}
+.ant-tag-green {
+  color: var(--darkGreen) !important;
+  background: var(--LightGreen) !important;
+}
+.ant-tag-red {
+  color: var(--red) !important;
+  background: var(--lightRed) !important;
+}
+.ant-tag-gold {
+  color: var(--orange) !important;
+  background: var(--lightOrange) !important;
+}
+.ant-tag-blue {
+  color: var(--blue) !important;
+  background: var(--lightBlue) !important;
+}
+:root {
+  --black: #1d1d1d;
+  --yellow: #f0e001;
+
+  --gray: #8a8a8a;
+  --darkGray: #a1a1a1;
+  --lighterGray: #e6e6e6;
+  --lightGray: #f7f7f7;
+  --blue: #3b86ff;
+  --lightBlue: #ecf1fa;
+  --red: #ff4d61;
+  --lightRed: #fee7e7;
+  --purple: #8b41dc;
+  --orange: #ffac30;
+  --lightOrange: #fff5e5;
+  --darkGreen: #43cf5f;
+  --RayGreen: #54ff34;
+  --LightGreen: #ecfaef;
+  --lightOrange: #fff5e5;
+}
+@font-face {
+  font-family: "Px-Grotesk";
+  src: url("/fonts/Px-Grotesk-Bold-Italic.ttf");
+  src: url("/fonts/Px-Grotesk-Bold.ttf");
+  src: url("/fonts/Px-Grotesk-Light.ttf");
+  src: url("/fonts/Px-Grotesk-Regular-Italic.ttf");
+  src: url("/fonts/Px-Grotesk-Regular-Italic.ttf");
+  src: url("/fonts/Px-Grotesk-Regular.ttf");
+}
